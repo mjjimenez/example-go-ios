@@ -122,6 +122,4 @@ For adding `/user/lib/swift` to runtime search paths for linker if `iOS >= 12.2`
 
 2. Test for `arm64` architecture on real device
 
-3. Test for `Edge-SDK` 
-
-4. Clean `cgo` flag directives (specially `LDFLAGS`) by using environment variables and conditionally using correct architecture (`ios` instead of `macosx`)
+3. Clean `cgo` flag directives (specially `LDFLAGS`) by using environment variables and conditionally using correct architecture (`ios` instead of `macosx`)
